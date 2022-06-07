@@ -1,7 +1,7 @@
 const { expect } = require("chai")
 const { ethers } = require("hardhat")
 
-describe("Greeter", function () {
+describe("Verify Signature", function () {
   it("Should return the right hash and signer", async function () {
 
     const accounts = await ethers.getSigners(2)
